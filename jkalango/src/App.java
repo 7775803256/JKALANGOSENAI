@@ -8,15 +8,20 @@ public class App {
     public static void main(String[] args) throws Exception {
         
         List<Genero> lista = new ArrayList<>();
-        
-            Genero g1 = new Genero("Action", "ação e aventura");
-            Genero g2 = new Genero("Terror", "terror e suspense");
-            Genero g3 = new Genero("RPG", "jogo de interpretação de papéis");
-            Genero g4 = new Genero("Estrategy", "jogo de estratégia em tempo real");
-            Genero g5 = new Genero("Simulation", "jogo de simulação de vida");
-            Genero g6 = new Genero("Comedia", "jogo de comédia e humor");
-        
-        //adicionar
+       // Crie uma lista de Criadores
+       //criadores 10
+            Criador joao = new Criador("nome", "perfil", "email", "telefone");
+            Criador joao1 = new Criador("nome", "perfil", "email", "telefone");
+            Criador joao2 = new Criador("nome", "perfil", "email", "telefone");
+            Criador joao3 = new Criador("nome", "perfil", "email", "telefone");
+            Criador joao4 = new Criador("nome", "perfil", "email", "telefone");
+            Criador joao5 = new Criador("nome", "perfil", "email", "telefone"); 
+            Criador joao6 = new Criador("nome", "perfil", "email", "telefone");
+            Criador joao7 = new Criador("nome", "perfil", "email", "telefone");
+            Criador joao8 = new Criador("nome", "perfil", "email", "telefone");
+            Criador joao9 = new Criador("nome", "perfil", "email", "telefone");
+            Criador joao10 = new Criador("nome", "perfil", "email", "telefone");
+            //adicionar
             
             lista.add(g1);
             lista.add(g2);
